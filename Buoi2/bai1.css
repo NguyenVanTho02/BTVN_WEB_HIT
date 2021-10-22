@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url("https://thumbs.dreamstime.com/b/set-white-music-notes-orange-background-randomly-arranged-white-music-notes-orange-background-abstract-d-illustration-147986793.jpg") top left no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+
+.form-pay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  width: 400px;
+  min-height: 500px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 7px 10px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: #fff;
+}
+
+.img-heading {
+  width: 100%;
+}
+
+.img-heading img{
+  object-fit: cover;
+  width: 100%;
+  height: 190px;
+}
+
+.container-content {
+  width: 80%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.text-heading{
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-description{
+  color: rgba(0, 0, 0, 0.5); 
+  padding-top: 14px;
+  line-height: 24px;
+  font-size: 15px;
+}
+
+
+.buy-option{
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.buy-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 25px;
+}
+
+.buy-info {
+  display: flex;
+}
+
+.icon-music {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.icon-music i {
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.name-price{
+  padding-left: 20px;
+}
+.name-price .name{
+  font-weight: 700;
+  font-size: 16px;
+}
+.name-price .price{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.click-change{
+  padding: 10px 0;
+}
+
+.btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.btn-pay{
+  width: 100%;
+  background-color: #fd6802;
+  padding: 10px 0;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 12px 10px rgba(253, 104, 2 , 0.4);
+}
+
+.cancel {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.cancel a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
