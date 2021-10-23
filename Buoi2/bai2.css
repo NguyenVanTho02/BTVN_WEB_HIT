@@ -84,9 +84,8 @@ body {
 
 #eye {
   float: right;
-  position: relative;
-  top: -46px;
-  right: 11px;
+  margin-top: -47px;
+  margin-right: 12px;
   cursor: pointer;
   color: #555;
 }
