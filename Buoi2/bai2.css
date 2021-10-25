@@ -73,6 +73,11 @@ body {
   font-weight: 600;
 }
 
+input:focus {
+  border: 1px solid #0284fe;
+  box-shadow: 0px 0px 7px #0284fe;
+}
+
 .form-control {
   width: 100%;
   padding: 10px;
