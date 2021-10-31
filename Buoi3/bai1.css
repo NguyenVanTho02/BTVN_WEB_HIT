@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+}
+
+.container {
+  border: 2px solid #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+}
+
+.h-container {
+  display: flex;
+  align-items: center;
+}
+
+.t-container {
+  display: flex;
+}
+
+.pd-left {
+  padding-left: 50px;
+}
+
+.number-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal {
+  display: flex;
+}
+
+.align-left {
+  align-self: flex-end;
+}
