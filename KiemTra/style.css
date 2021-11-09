@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  height: 30px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-menu li {
+  position: relative;
+  list-style: none;
+}
+
+.nav-menu a {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: red;
+}
+
+.nav-desc {
+  position: absolute;
+  background-color: #fff;
+  width: 180px;
+  display: none;
+}
+
+.nav-desc a {
+  color: blue;
+}
+
+#menu-color:hover .nav-desc {
+  display: block;
+}
+
+.section {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  width: 49%;
+}
+
+.heading-section {
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  color: #fff;
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.container-products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item-product {
+  width: 29%;
+  margin: 15px;
+  text-align: center;
+}
+
+.item-product img {
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.item-product .name-product {
+  color: blue;
+}
+
+.item-product .price-old {
+  color: red;
+  text-decoration: line-through;
+}
+
+.item-product .price-new {
+  color: blue;
+}
+
+.advertist {
+  width: 24%;
+  /* background-color:red; */
+}
+
+.video-adv {
+  width: 100%;
+  height: 100px;
+}
+
+
+.input-chose {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.input-chose input {
+  width: 90%;
+}
+
+.input-chose .option-input {
+  width: 90%;
+}
+
+.cart {
+  width: 24%;
+}
+
+.heading-block {
+  color: #fff;
+  background-color: rgb(236, 76, 103);
+  text-align:  center;
+}
+
+.block-content {
+  color: rgb(236, 76, 103);
+  line-height: 30px;
+  border: 1px solid rgb(236, 76, 103);
+}
+
+.support-online {
+  
+}
