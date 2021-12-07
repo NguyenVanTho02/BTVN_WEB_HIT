@@ -12,7 +12,7 @@
 // } 
 
 
-function post2(title, body, author, views, comments, isLive) {
+function Post2(title, body, author, views, comments, isLive) {
   this.title = title;
   this.body = body;
   this.author = author;
@@ -21,5 +21,5 @@ function post2(title, body, author, views, comments, isLive) {
   this.isLive = isLive;
 }
 
-const p = new post2("ahihi", "anh Hoàng đzzz", "abc", 100, [{author: 'anh Huân đzzz', body: "lewlew"},{author: 'anh Huân đzzz', body: "lewlew"},], true)
+const p = new Post2("ahihi", "anh Hoàng đzzz", "abc", 100, [{author: 'anh Huân đzzz', body: "lewlew"},{author: 'anh Huân đzzz', body: "lewlew"},], true)
 console.log(p)
